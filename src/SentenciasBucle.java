@@ -5,9 +5,8 @@ public class SentenciasBucle {
             while (j <= 8){
                 if (i == 6 || i == 7){
                     System.out.println("Día " + i + " Descanso de fin de semana");
-                } else {
-                    System.out.println("Día " + i + " Día de trabajo duro");
                 }
+                System.out.println("Día" + i + "Trabajando a las " + j + "Hrs.");
                 j++;
             }
         }
